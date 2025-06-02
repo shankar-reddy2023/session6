@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkerboard with Borders</title>
+  <style>
+    body {
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .outer-border {
+      background-color: black; 
+      padding: 6px;
+      display: inline-block;
+    }
+
+    .inner-border {
+      background-color: white; 
+      padding: 4px;
+    }
+
+    .board {
+      display: grid;
+      grid-template-columns: repeat(8, 60px);
+      grid-template-rows: repeat(8, 60px);
+    }
+
+    .square {
+      width: 60px;
+      height: 60px;
+    }
+
+    .black {
+      background-color: black;
+    }
+
+    .pink {
+      background-color: rgb(232, 222, 146);
+    }
+  </style>
+</head>
+<body>
+
+<div class="outer-border">
+  <div class="inner-border">
+    <div class="board">
+      
+      
+      
+      <div class="pink square"></div><div class="black square"></div><div class="pink square"></div><div class="black square"></div><div class="pink square"></div><div class="black square"></div><div class="pink square"></div><div class="black square"></div>
+      
+      <div class="black square"></div><div class="pink square"></div><div class="black square"></div><div class="pink square"></div><div class="black square"></div><div class="pink square"></div><div class="black square"></div><div class="pink square"></div>
+      
+      <div class="pink square"></div><div class="black square"></div><div class="pink square"></div><div class="black square"></div><div class="pink square"></div><div class="black square"></div><div class="pink square"></div><div class="black square"></div>
+      
+      <div class="black square"></div><div class="pink square"></div><div class="black square"></div><div class="pink square"></div><div class="black square"></div><div class="pink square"></div><div class="black square"></div><div class="pink square"></div>
+      
+      <div class="pink square"></div><div class="black square"></div><div class="pink square"></div><div class="black square"></div><div class="pink square"></div><div class="black square"></div><div class="pink square"></div><div class="black square"></div>
+      
+      <div class="black square"></div><div class="pink square"></div><div class="black square"></div><div class="pink square"></div><div class="black square"></div><div class="pink square"></div><div class="black square"></div><div class="pink square"></div>
+      
+      <div class="pink square"></div><div class="black square"></div><div class="pink square"></div><div class="black square"></div><div class="pink square"></div><div class="black square"></div><div class="pink square"></div><div class="black square"></div>
+      
+      <div class="black square"></div><div class="pink square"></div><div class="black square"></div><div class="pink square"></div><div class="black square"></div><div class="pink square"></div><div class="black square"></div><div class="pink square"></div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
